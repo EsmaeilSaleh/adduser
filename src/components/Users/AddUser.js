@@ -1,4 +1,5 @@
 import React from "react";
+import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
@@ -6,11 +7,15 @@ import TextField from "@mui/material/TextField";
 const AddUser = () => {
   const addUserHandler = (event) => {
     event.preventDefault();
-    alert(event.target.value);
   };
   return (
     <Card style={{ width: "32rem", padding: "0.8em" }}>
-      <h2>AddUser</h2>
+      <Typography
+        variant="h4"
+        sx={{ padding: "0.3em", textAlign: "center", fontWeight: 600 }}
+      >
+        Add User
+      </Typography>
       <form onSubmit={addUserHandler}>
         <TextField
           fullWidth

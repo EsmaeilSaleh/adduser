@@ -4,9 +4,9 @@ import Container from "@mui/material/Container";
 
 function App() {
   return (
-    <Container sx={{ display: 'flex', justifyContent: 'center' }}>
-      <AddUser />
-    </Container>
+      <Container sx={{ display: "flex", justifyContent: "center" }}>
+        <AddUser />
+      </Container>
   );
 }
 
