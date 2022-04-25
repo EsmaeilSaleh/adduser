@@ -1,10 +1,12 @@
 import AddUser from "./components/Users/AddUser";
-function App(props) {
+
+import Container from "@mui/material/Container";
+
+function App() {
   return (
-    <div>
-      Esmaeil: Hello react!
+    <Container sx={{ display: 'flex', justifyContent: 'center' }}>
       <AddUser />
-    </div>
+    </Container>
   );
 }
 
