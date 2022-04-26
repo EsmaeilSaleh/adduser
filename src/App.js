@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 
 function App() {
   return (
-    <Container sx={{ display: "flex", flexDirection: 'column', justifyContent: "center" }}>
+    <Container sx={{ display: "flex", flexDirection: 'column', alignItems: "center" }}>
       <AddUser />
       <UserList />
     </Container>
