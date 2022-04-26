@@ -9,7 +9,7 @@ const AddUser = () => {
     event.preventDefault();
   };
   return (
-    <Card style={{ width: "32rem", padding: "0.8em", display: "block" }}>
+    <Card style={{ width: "32rem", padding: "0.8em" }}>
       <Typography
         variant="h4"
         sx={{ padding: "0.3em", textAlign: "center", fontWeight: 600 }}
