@@ -1,13 +1,14 @@
 import AddUser from "./components/Users/AddUser";
+import UserList from "./components/Users/UserList";
 
 import Container from "@mui/material/Container";
 
 function App() {
   return (
-      <Container sx={{ display: "flex", justifyContent: "center" }}>
-        <AddUser />
-        <AddUser />
-      </Container>
+    <Container sx={{ display: "flex", justifyContent: "center" }}>
+      <AddUser />
+      <UserList />
+    </Container>
   );
 }
 
