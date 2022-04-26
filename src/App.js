@@ -8,7 +8,6 @@ function App() {
   return (
     <Container sx={{ display: "flex", flexDirection: 'column', alignItems: "center" }}>
       <AddUser />
-      <UserList />
       <Footer />
     </Container>
   );
