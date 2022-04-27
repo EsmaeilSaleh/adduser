@@ -25,6 +25,10 @@ const AddUser = () => {
       alert("Please insert the required data.");
       return;
     }
+    if (enteredAge < 1) {
+      alert("Invalid Age!");
+      return;
+    }
     setEnteredUsers([...enteredUsers, { name: enteredUser, age: enteredAge }]);
     setEnteredUser("");
     setEnteredAge("");
