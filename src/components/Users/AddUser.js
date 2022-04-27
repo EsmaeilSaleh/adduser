@@ -18,10 +18,11 @@ const AddUser = () => {
   const ageHandler = (e) => {
     setEnteredAge(e.target.value);
   };
+
   const addUserHandler = (event) => {
     event.preventDefault();
     if (enteredUser === "" || enteredAge === "") {
-      alert("Please insert the required data!");
+      alert("Please insert the required data.");
       return;
     }
     setEnteredUsers([...enteredUsers, { name: enteredUser, age: enteredAge }]);
