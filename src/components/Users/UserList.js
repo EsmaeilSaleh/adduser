@@ -10,7 +10,7 @@ const UserList = (props) => {
     <Card sx={{ marginTop: "0.8em" }}>
       <Typography variant="h2" sx={{ textAlign: 'center' }}>UserList</Typography>
       {props.users.map((user) => (
-        <Box sx={{ padding: '.8em', textAlign: 'center' }}>
+        <Box key={user} sx={{ padding: '.8em', textAlign: 'center' }}>
             {user.name} ({user.age})
           <Divider sx={{ marginTop: '0.8em' }}/>
         </Box>
