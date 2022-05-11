@@ -32,6 +32,7 @@ const AddUser = () => {
     setEnteredUsers([...enteredUsers, { name: enteredUser, age: enteredAge }]);
     setEnteredUser("");
     setEnteredAge("");
+    document.activeElement.blur();
   };
   return (
     <Box>
